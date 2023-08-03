@@ -6600,6 +6600,8 @@ pre code {
 }
 .blogs-item img{
     transition: all 0.3s ease-out;
+    height: auto;
+    width: 100%;
 
 }
 .blogs-item img:hover{
@@ -6638,8 +6640,10 @@ pre code {
 }
 .footer-main{
     max-width: 1420px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    padding-right: 50px;
+    margin-left: auto;
 }
 .col-title{
     text-align: left;

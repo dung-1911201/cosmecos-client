@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:5050/api/';
-
+// const baseURL = 'http://localhost:5050/api/';
+const baseURL = 'https://cosmecos-server.vercel.app/api/';
 let token;
 
 const user = JSON.parse(localStorage.getItem('user')) || null;
